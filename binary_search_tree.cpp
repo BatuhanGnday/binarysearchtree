@@ -70,7 +70,7 @@ void binary_search_tree::searchElement(double x) {
 }
 
 void binary_search_tree::root(double x) {
-    while (x == 0.0) { // UNUTMA
+    while (x == 0.0) {
         x = (x-1) / 2;
         cout << "Root of this tree is: ";
     }
